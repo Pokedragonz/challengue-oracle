@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changuelle</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script defer src="java/index.js"></script>
+</head>
+<body>
+    <div class="container">       
+        <div class="textareas-container">
+            <textarea class="tex1" id="input-text" placeholder="Introduce el texto aquí"></textarea>
+            <textarea class="tex2" id="output-text" placeholder="Ningun Mensaje fue encontrado"readonly></textarea>
+        </div>
+        <div class="buttons">
+            <button onclick="encriptarTexto()">Encriptar</button>
+            <button onclick="desencriptarTexto()">Desencriptar</button>
+            <button onclick="copiarTexto()">Copiar</button>
+            <button onclick="limpiarTexto()">Limpiar</button>
+        </div>  
+    </div>
+        <img src="imagenes/Frame 1.png" class="alerta"><style>
+            .alerta {
+                filter: sepia(1) saturate(10) hue-rotate(180deg);
+            }
+          </style>
+    <img src="imagenes/Logo.png" class="imagenlogo">
+</body>
+</html>
